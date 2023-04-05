@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./project3.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./baghdad.jpg" alt="">
+            </div>
+            <div class="media-icons">
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name"><a style="text-decoration: none; color: #000;" href="https://uobaghdad.edu.iq/">جامعة بغداد</a></span>
+              <span class="name"></span>
+            </div>
+          </div>
+        </div><div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./maxresdefault.jpg" alt="">
+            </div>
+            <div class="media-icons">
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name"><a style="text-decoration: none; color: #000;" href="https://uomustansiriyah.edu.iq/">جامعة المستنصرية</a></span>
+              <span class="name"></span>
+            </div>
+          </div>
+        </div><div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./شعار_جامعة_كربلاء.jpg" alt="">
+            </div>
+            <div class="media-icons">
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name"><a style="text-decoration: none; color: #000;" href="https://uokerbala.edu.iq/"> جامعة كربلاء</a> </span>
+              <span class="name"> </span>
+            </div>
+          </div>
+        </div><div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./جامعة البصرة.jpg" alt="">
+            </div>
+            <div class="media-icons">
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name"><a style="text-decoration: none; color: #000;" href="#">جامعة البصرة</a></span>
+              <span class="name"></span>
+            </div>
+          </div>
+        </div><div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./جامعة كركوك.jpg" alt="">
+            </div>
+            <div class="media-icons">
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name"><a style="text-decoration: none; color: #000;" href="#">جامعة كركوك</a> </span>
+              <span class="name"> </span>
+            </div>
+          </div>
+        </div><div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./ديالى.jpg" alt="">
+            </div>
+            <div class="media-icons">
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name"><a style="text-decoration: none; color: #000;" href="#">جامعة ديالى</a></span>
+              <span class="name"> </span>
+            </div>
+          </div>
+        </div><div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./شعار_الجامعة_التكنولوجية.png" alt="">
+            </div>
+            <div class="media-icons">
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name"><a style="text-decoration: none; color: #000;" href="#">جامعة التكنولوجيا</a></span>
+              <span class="name"></span>
+            </div>
+          </div>
+        </div><div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="./الكوفة.jpg" alt="">
+            </div>
+            <div class="media-icons">
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name"><a style="text-decoration: none; color: #000;" href="#">جامعة الكوفه</a></span>
+              <span class="name"></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
+    
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  </section>
+  
+</body>
+</html>
