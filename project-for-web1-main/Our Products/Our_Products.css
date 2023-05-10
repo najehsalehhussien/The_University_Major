@@ -26,7 +26,19 @@ body{
 	justify-content: center;
 	flex-wrap: wrap;
 }
-
+.home-btn {
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  .home-btn:hover {
+	background-color: #555;
+  }
+  
 .product{
 	overflow: hidden;
 	background: #ffffff;
